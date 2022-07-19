@@ -1,0 +1,35 @@
+.poster {
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: 2px rgb(212, 201, 201);
+    background-color: white;
+    position:relative;
+    overflow: hidden;
+    height: 420px;
+    position: relative;
+    width:100%;
+}
+
+.title { 
+    position: absolute;
+    font-size: 32px;
+    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+    bottom: 40px;
+    left: 30px;
+    color: white;
+}
+
+.image{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+.rating{
+    position: absolute;
+    bottom : 50px;
+    left : 20px;
+}
+
